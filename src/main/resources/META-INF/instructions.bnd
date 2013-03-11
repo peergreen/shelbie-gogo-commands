@@ -16,4 +16,5 @@
 Embed-Dependency org.apache.felix.gogo.command;inline=true
 
 # OBR Commands are optionally started if the service is there
-DynamicImport-Package org.apache.felix.bundlerepository.*
+DynamicImport-Package org.apache.felix.bundlerepository, \
+                      org.apache.felix.bundlerepository.*
