@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-Embed-Dependency org.apache.felix.gogo.command;inline=true
+Embed-Dependency org.apache.felix.gogo.command;inline=org/apache/felix/gogo/command/**
 
 # OBR Commands are optionally started if the service is there
 DynamicImport-Package org.apache.felix.bundlerepository, \
